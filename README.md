@@ -36,6 +36,8 @@ ___
 ___
 In addition, the script should display graphs to track the performance of the model, including the accuracy and loss on the training and test samples depending on the epoch. Graphs should be displayed using the [plt.show()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html) function.
 
+> Then comes the output of the model, which is trained on the data for 50 epochs. For each epoch, the values of the loss function and accuracy for the training set and test set are displayed:
+
 > Epoch 1/50
 4/4 [==============================] - 0s 35ms/step - loss: 1.0664 - accuracy: 0.4000 - val_loss: 0.9859 - val_accuracy: 0.4667
 Epoch 2/50
